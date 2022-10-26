@@ -40,7 +40,7 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
+  padding: 0 1rem 0 0;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -70,12 +70,20 @@
 }
 
 /* For medium devices */
+@media screen and (max-width: 768px) {
+  .about__container {
+    margin-bottom: 2rem;
+  }
+}
 @media screen and (max-width: 576px) {
   .about__info {
     grid-template-columns: repeat(3, 1fr);
   }
   .about__description {
     padding: 0;
+  }
+  .about__container {
+    margin-bottom: 0rem;
   }
 }
 

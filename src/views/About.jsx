@@ -16,10 +16,16 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet,
-            repudiandae consequuntur. Esse similique, et reprehenderit dolorum
-            architecto eaque amet maiores tenetur tempore eum eos labore ab vero
-            excepturi id aut!
+            I am Interested in using technology to connect people and businesses
+            and willing to take up any challenges to improve myself. I am an
+            Artificial Intelligence enthusiast and I like to experiment with new
+            and upcoming technologies during my free time. With the 6 years’
+            experience as a web developer I have hands on expertise of HTML5,
+            CSS3, SASS, LESS, JavaScript, jQuery, Angular js, React js, Node js
+            ,Grunt, bower, Bootstrap, Ruby, joomla, wordpress, magento, Zencart
+            framework, php, Mysql, .net and I’m currently looking for an
+            opportunity to work as a web developer in a company which helps to
+            grow and extend personal horizons.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV{" "}
